@@ -11,7 +11,7 @@ This project provides a script that demangles Rust function names and normalize 
 
 # Dependencies
 
-The demangling algorithm used in this script is based on [FTLRustDemangler](https://github.com/timetravelthree/FTLRustDemangler) binary so make sure you have it already installed.
+The demangling algorithm used in this script is based on [rs-dml](https://github.com/timetravelthree/FTLRustDemangler) binary so make sure you have it already installed.
 
 # Installation
 
