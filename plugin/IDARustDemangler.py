@@ -88,6 +88,11 @@ class IDARustDemangler():
         name = name.replace(",", "")
         name = name.replace("{", "<")
         name = name.replace("}", ">")
+        name = name.replace("'","")
+        name = name.replace("`","")
+        name = name.replace("-","")
+        name = name.replace("=","")
+        name = name.replace("\\","")
 
         i = 0
         output = "_ZN"
